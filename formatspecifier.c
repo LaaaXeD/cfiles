@@ -24,15 +24,21 @@
 */
 
 int main(){
-float price1 = 19.99;
-float price2 = 1.50;
-float price3 = -100.00;
+    int age = 25;
+    float price = 18.99;
+    double pi = 3.1415926535;
+    char currency = '$';
+    char name[]= "Lamar";
 
-printf("%.2f\n", price1);
-printf("%f\n", price2);
-printf("%f\n", price3);
+    printf("%d\n", age);
+    printf("%f\n", price);
+    printf("%lf\n", pi);
+    printf("%c \n", currency);
+    printf("%s\n", name);
 
-return 0;
+    width();
+    precision();
+    return 0;
 };
 
 
