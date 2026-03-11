@@ -7,16 +7,16 @@ int main(){
     char grade = '\0';
     char name[30] = "";
 
-    printf("Enter your age: ");
+    printf("Enter your age:");
     scanf("%d", &age);
 
-    printf("Enter your GPA: ");
+    printf("Enter your GPA:");
     scanf("%f", &gpa);
     
-    printf("%d", age);
-    printf("%f", gpa);
-    printf("%c", grade);
-    printf("%s", name);
+    printf("%d\n", age);
+    printf("%.2f\n", gpa);
+    printf("%c\n", grade);
+    printf("%s\n", name);
 
 
 
